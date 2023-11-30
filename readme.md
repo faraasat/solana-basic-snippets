@@ -1,3 +1,11 @@
+<!-- to generate a keypair in default location -->
+
+solana-keygen new
+
+<!-- to install anchor cli -->
+
+cargo install --git https://github.com/coral-xyz/anchor avm --locked --force
+
 git clone https://github.com/coral-xyz/anchor.git
 
 <!-- to generate keypair -->
